@@ -1,0 +1,6 @@
+<h1>LA PALABRA</h1>
+
+<app-casillas [lapalabra]="palabra" [lasletras]="letras" [habilitar]="contador"
+(error)="erronio($event)"></app-casillas>
+<button (click)="enviar()" class="enviar">Enviar</button>
+<button routerLink="/principal" >volver</button>

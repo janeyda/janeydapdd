@@ -1,0 +1,10 @@
+
+<div class="fila">
+    <app-celdas 
+    *ngFor="let celda of celdas; index as i " 
+    [palabra]="palabra" [letra]="letras[i]"
+    [verificar]="verificar"
+    (estado)="contener_estados($event)"   
+     ></app-celdas>
+</div>
+

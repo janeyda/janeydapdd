@@ -1,0 +1,25 @@
+{
+  "palabras": [
+      { 
+        "id": 1, 
+        "Palabra": "camas"
+      },
+      { 
+        "id": 2, 
+        "Palabra": "amiga"},
+      { 
+        "id": 3, 
+        "Palabra": "autos"
+      },
+      { 
+        "id": 4, 
+        "Palabra": "trato"
+      },
+      { 
+        "id": 5, 
+        "Palabra": "salto"
+      }
+    ],
+    "record":[{"id": 1, 
+    "email": "salto@gmail","time":600}]
+  }
