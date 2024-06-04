@@ -1,0 +1,23 @@
+<div class="clasificacion">
+  <h2>Tabla de Clasificación</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Nivel</th>
+        <th>Resultado</th>
+        <th>Intentos</th>
+        <th>Tiempo</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let resultado of topResultados">
+        <td>{{ resultado.nombre }}</td>
+        <td>{{ resultado.nivel }}</td>
+        <td>{{ resultado.resultado }}</td>
+        <td>{{ resultado.intentos }}</td>
+        <td>{{ resultado.tiempo }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

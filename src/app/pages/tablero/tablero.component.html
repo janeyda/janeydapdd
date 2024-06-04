@@ -1,6 +1,32 @@
-<h1>LA PALABRA</h1>
-
-<app-casillas [lapalabra]="palabra" [lasletras]="letras" [habilitar]="contador"
-(error)="erronio($event)"></app-casillas>
-<button (click)="enviar()" class="enviar">Enviar</button>
-<button routerLink="/principal" >volver</button>
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="tablero">
+      <h1>LA PALABRA</h1>
+      <h2>Jugador: {{ nombreJugador }}</h2>
+      <h2>Tiempo: {{ tiempo }} segundos</h2>
+      <app-casillas
+        [lapalabra]="palabra"
+        [lasletras]="letras"
+        [nivel]="nivel"
+        [habilitar]="contador"
+        (error)="erronio($event)"
+      ></app-casillas>
+      <div class="botones">
+        <button (click)="enviar()" class="enviar">ENVIAR</button>
+        <button routerLink="/principal">VOLVER</button>
+      </div>
+    </div>
+  </body>
+</html>

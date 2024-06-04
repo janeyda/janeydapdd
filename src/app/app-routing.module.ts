@@ -5,7 +5,7 @@ import { PrincipalComponent } from './pages/principal/principal.component';
 
 const routes: Routes = [
   {path:'',component: PrincipalComponent},
-  {path:'tablero',component: TableroComponent},
+  {path:'tablero/:level',component: TableroComponent},
   { path: 'principal', loadChildren: () => import('./pages/principal/principal.module').then(m => m.PrincipalModule) }
 ];
 

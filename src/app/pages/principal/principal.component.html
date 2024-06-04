@@ -1,29 +1,77 @@
-<h1> LA PALABRA DEL DIA</h1>
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <h1>LA PALABRA DEL DIA</h1>
+    </nav>
 
-<P>El objetivo del juego es simple, adivinar la palabra oculta. La palabra tiene 5 letras y tienes 8 intentos en el nivel facil ,6 intentos en el nivel medio y 3 intentos en el nivel dificil
- para adivinarla. 
+    <h2>Bienvenido</h2>
 
-  En cada ronda el juego pinta cada letra de un color indicando si esa letra se encuentra o no en la palabra y 
-  si se encuentra en la posición correcta.
-  
-  
-
-<ul><H3>significado de colores </H3>
-
-    <li>verde</li>
-
-    <p>VERDE significa que la letra está en la palabra y en la posición CORRECTA.</p>
-
-    <li>amarillo</li>
-    <p>AMARILLO significa que la letra letra está presente en la palabra pero en la posición INCORRECTA.</p>
-    <li>gris</li>
-    <p>GRIS significa que la letra letra NO está presente en la palabra.</p>
-    
-<h1>SELECCIONAR NIVEL</h1>
-   
-</ul>
-
-
-<button routerLink="/tablero" (click)="facil()" class="enviar">facil </button>
-<button routerLink="/tablero" (click)="medio()" class="enviar">medio</button>
-<button routerLink="/tablero" (click)="dificil()" class="enviar">dificil</button>
+    <P>
+      El objetivo del juego es simple, adivinar la palabra oculta. La palabra
+      tiene 5 letras y tienes 8 intentos en el nivel fácil, 6 intentos en el
+      nivel medio y 3 intentos en el nivel difícil para adivinarla. <br />
+      En cada ronda el juego pinta cada letra de un color indicando si esa letra
+      se encuentra o no en la palabra y si se encuentra en la posición correcta.
+    </P>
+    <section>
+      <div class="info">
+        <h2>Significado de Colores</h2>
+        <div class="info-colores">
+          <div class="colores-color">
+            <h3>Verde</h3>
+            <p>
+              VERDE significa que la letra está en la palabra y en la posición
+              CORRECTA.
+            </p>
+          </div>
+          <div class="colores-color">
+            <h3>Amarillo</h3>
+            <p>
+              AMARILLO significa que la letra está presente en la palabra pero
+              en la posición INCORRECTA.
+            </p>
+          </div>
+          <div class="colores-color">
+            <h3>Gris</h3>
+            <p>
+              GRIS significa que la letra letra NO está presente en la palabra.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="nivel">
+      <h2>Ingresa tu nombre y selecciona el nivel</h2>
+      <div class="username">
+        <label for="nombre">Nombre del jugador:</label>
+        <input type="text" id="nombre" [(ngModel)]="nombreJugador" />
+      </div>
+      <div class="botones">
+        <div class="boton">
+          <button (click)="nivel('facil')" class="enviar btn1">FACIL</button>
+          <p>Intentos Permitidos: 8</p>
+        </div>
+        <div class="boton">
+          <button (click)="nivel('medio')" class="enviar btn2">MEDIO</button>
+          <p>Intentos Permitidos: 6</p>
+        </div>
+        <div class="boton">
+          <button (click)="nivel('dificil')" class="enviar btn3">DIFICL</button>
+          <p>Intentos Permitidos: 3</p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

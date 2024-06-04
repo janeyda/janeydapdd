@@ -8,6 +8,10 @@ import { TableroComponent } from './pages/tablero/tablero.component';
 import { FilaComponent } from './component/fila/fila.component';
 import { CeldasComponent } from './component/celdas/celdas.component';
 import { FormsModule } from '@angular/forms';
+import { RouterModule } from '@angular/router';
+import { PrincipalComponent } from './pages/principal/principal.component';
+import { ClasificacionComponent } from './component/clasificacion/clasificacion.component';
+import { ResultadosService } from './services/resultados.service';
 
 @NgModule({
   declarations: [
@@ -15,15 +19,20 @@ import { FormsModule } from '@angular/forms';
     CasillasComponent,
     TableroComponent,
     FilaComponent,
-    CeldasComponent
+    CeldasComponent,
+    ClasificacionComponent
   ],
   imports: [
+    FormsModule,
     BrowserModule,
     AppRoutingModule,
     HttpClientModule ,
-    FormsModule
+    RouterModule.forRoot([
+      { path: 'principal', component: PrincipalComponent },
+      { path: 'tablero/:level', component: TableroComponent }
+    ])
   ],
-  providers: [],
+  providers: [ResultadosService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

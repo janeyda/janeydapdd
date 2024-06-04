@@ -1,25 +1,154 @@
 {
   "palabras": [
-      { 
-        "id": 1, 
-        "Palabra": "camas"
-      },
-      { 
-        "id": 2, 
-        "Palabra": "amiga"},
-      { 
-        "id": 3, 
-        "Palabra": "autos"
-      },
-      { 
-        "id": 4, 
-        "Palabra": "trato"
-      },
-      { 
-        "id": 5, 
-        "Palabra": "salto"
-      }
-    ],
-    "record":[{"id": 1, 
-    "email": "salto@gmail","time":600}]
-  }
+    {
+      "Palabra": "camas",
+      "id": "d791"
+    },
+    {
+      "Palabra": "amiga",
+      "id": "8bb7"
+    },
+    {
+      "Palabra": "autos",
+      "id": "32f8"
+    },
+    {
+      "Palabra": "trato",
+      "id": "2059"
+    },
+    {
+      "Palabra": "salto",
+      "id": "8d4f"
+    }
+  ],
+  "resultados": [
+    {
+      "id": "f408",
+      "nombre": "asds",
+      "nivel": "dificil",
+      "resultado": "perdido",
+      "intentos": 3,
+      "tiempo": 67
+    },
+    {
+      "id": "bf99",
+      "nombre": "Mauro",
+      "nivel": "medio",
+      "resultado": "perdido",
+      "intentos": 6,
+      "tiempo": 50
+    },
+    {
+      "id": "72c3",
+      "nombre": "Mauro",
+      "nivel": "medio",
+      "resultado": "perdido",
+      "intentos": 6,
+      "tiempo": 6
+    },
+    {
+      "id": "45fb",
+      "nombre": "Mauro",
+      "nivel": "medio",
+      "resultado": "ganado",
+      "intentos": 2,
+      "tiempo": 13
+    },
+    {
+      "id": "13f4",
+      "nombre": "Mauro",
+      "nivel": "medio",
+      "resultado": "perdido",
+      "intentos": 6,
+      "tiempo": 21
+    },
+    {
+      "id": "95f8",
+      "nombre": "Mauro",
+      "nivel": "medio",
+      "resultado": "perdido",
+      "intentos": 6,
+      "tiempo": 21
+    },
+    {
+      "id": "70b0",
+      "nombre": "Mauro",
+      "nivel": "medio",
+      "resultado": "ganado",
+      "intentos": 2,
+      "tiempo": 27
+    },
+    {
+      "id": "4de3",
+      "nombre": "ssssss",
+      "nivel": "medio",
+      "resultado": "ganado",
+      "intentos": 3,
+      "tiempo": 24
+    },
+    {
+      "id": "c197",
+      "nombre": "ssssss",
+      "nivel": "medio",
+      "resultado": "ganado",
+      "intentos": 2,
+      "tiempo": 18
+    },
+    {
+      "id": "ce47",
+      "nombre": "ssssss",
+      "nivel": "medio",
+      "resultado": "ganado",
+      "intentos": 2,
+      "tiempo": 24
+    },
+    {
+      "id": "8907",
+      "nombre": "ssssss",
+      "nivel": "medio",
+      "resultado": "perdido",
+      "intentos": 6,
+      "tiempo": 36
+    },
+    {
+      "id": "be2b",
+      "nombre": "ssssss",
+      "nivel": "medio",
+      "resultado": "perdido",
+      "intentos": 6,
+      "tiempo": 36
+    },
+    {
+      "id": "e3d6",
+      "nombre": "ssssss",
+      "nivel": "medio",
+      "resultado": "perdido",
+      "intentos": 6,
+      "tiempo": 36
+    },
+    {
+      "id": "4fd7",
+      "nombre": "f",
+      "nivel": "medio",
+      "resultado": "ganado",
+      "intentos": 2,
+      "tiempo": 14
+    },
+    {
+      "id": "469a",
+      "nombre": "askm",
+      "nivel": "medio",
+      "resultado": "ganado",
+      "intentos": 2,
+      "tiempo": 10
+    },
+    {
+      "id": "60ea",
+      "nombre": "primero",
+      "nivel": "medio",
+      "resultado": "ganado",
+      "intentos": 2,
+      "tiempo": 13
+    }
+  ]
+}
