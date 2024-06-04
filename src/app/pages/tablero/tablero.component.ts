@@ -46,9 +46,10 @@ export class TableroComponent implements OnInit {
       } while (!this.palabras[random]);
       this.palabra = this.palabras[random].Palabra; // Asegurar que palabra sea una cadena
       this.letras = this.palabras[random].Palabra.split('');
+      console.log(this.palabra)
     });
 
-    // Iniciar el temporizador
+   
     this.startTimer();
   }
 

@@ -17,7 +17,7 @@ export class CasillasComponent implements OnInit{
   filas: number[] = [];
 
   
-  constructor(private servicionivel:ServiciodenivelService ) {}
+  constructor( ) {}
 
   ngOnInit(): void {
    

@@ -22,10 +22,9 @@ export class FilaComponent implements OnChanges {
     } else{
       this.verificar = true
     }
-    // console.log('fila:',this.verificar)
   }
   contener_estados(e: any) {
-    console.log("Llego ahora si", e)
+   
     if (this.contenedor.length < 5) {
       this.contenedor.push(e);
     }

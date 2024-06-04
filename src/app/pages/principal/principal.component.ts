@@ -26,7 +26,5 @@ export class PrincipalComponent implements OnInit {
     this.enrutar.navigate(['/tablero', level, { nombre: this.nombreJugador }]);
   }
 
-  // nivel(level: string){
-  //   this.enrutar.navigate(['/tablero', level])
-  // }
+  
 }

@@ -149,6 +149,46 @@
       "resultado": "ganado",
       "intentos": 2,
       "tiempo": 13
+    },
+    {
+      "id": "38f3",
+      "nombre": "l",
+      "nivel": "dificil",
+      "resultado": "perdido",
+      "intentos": 3,
+      "tiempo": 26
+    },
+    {
+      "id": "95b5",
+      "nombre": "l",
+      "nivel": "dificil",
+      "resultado": "perdido",
+      "intentos": 3,
+      "tiempo": 26
+    },
+    {
+      "id": "c6bf",
+      "nombre": "mm",
+      "nivel": "facil",
+      "resultado": "ganado",
+      "intentos": 2,
+      "tiempo": 40
+    },
+    {
+      "id": "62df",
+      "nombre": "mm",
+      "nivel": "facil",
+      "resultado": "ganado",
+      "intentos": 1,
+      "tiempo": 11
+    },
+    {
+      "id": "2a66",
+      "nombre": "mmm",
+      "nivel": "facil",
+      "resultado": "ganado",
+      "intentos": 2,
+      "tiempo": 21
     }
   ]
 }
